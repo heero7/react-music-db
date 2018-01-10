@@ -12,8 +12,8 @@ const App = () => {
     return(
         <BrowserRouter>
             <div>
-                <Route path="/" component={Home}/>
-                <Route path="/artist/:artistid" component={Home}/>
+                <Route exact path="/" component={Home}/>
+                <Route path="/artist/:artistid" component={Artist}/>
             </div>
         </BrowserRouter>
     )

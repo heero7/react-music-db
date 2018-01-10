@@ -74,3 +74,49 @@ a {
     font-weight: 100;
     margin: 20px 0;
 }
+
+
+/*
+================================
+   Header
+================================
+*/
+
+header {
+    font-family: 'Roboto';
+    text-align: center;
+    font-size: 33px;
+    border-bottom: 2px solid #2196f3;
+    color: #949494;
+}
+
+/*
+================================
+   Artist Bio
+================================
+*/
+
+.artist-bio {
+    box-sizing: border-box;
+    padding: 10px 30px;
+}
+
+.artist_bio .avatar span {
+    width: 130px;
+    height: 130px;
+    display: block;
+    margin: 0 auto;
+    background-size: cover !important;
+}
+
+.artist_bio h3 {
+    font-weight: 100px;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.artist_bio .bio_text {
+    font-weight: 100;
+    font-size: 14px;
+}
