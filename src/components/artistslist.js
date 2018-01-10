@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'; // for using links in react
 
 // list is received from home
 const ArtistsList = (props) => {
-    //console.log(props);
+    console.log(props);
 
     const list = ({allArtists}) => {
         // check if allArtists has any data
@@ -12,8 +12,7 @@ const ArtistsList = (props) => {
 
                 // style for LINK element
                 const style = {
-                    background: `url('/images/covers/${artist.cover}.jpg)
-                    no-repeat`
+                    background: `url('/images/covers/${artist.cover}.jpg') no-repeat`
                 }
 
                 return ( 
